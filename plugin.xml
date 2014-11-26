@@ -17,4 +17,11 @@
         <header-file src="src/ios/CDVFileOpener.h" />
         <source-file src="src/ios/CDVFileOpener.m" />
     </platform>
+    <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <feature name="FileOpener">
+                <param name="android-package" value="uk.ac.open.ouanywhere.fileopener"/>
+            </feature>
+        </config-file>
+    </platform>
 </plugin>
