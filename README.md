@@ -1,2 +1,2 @@
-uk.ac.open.ouanywhere.fileopener
-================================
+ou-plugin-test
+==============
